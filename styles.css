@@ -1,26 +1,26 @@
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 0;
+    left: 25%;
+    position: fixed;
+    width: 50%;
+    background-color: black;
 
 
+}
 
+.nav-element {
+    display: inline;
+    padding: 14px 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a{
+    color: white;
+    text-decoration: none;
+}
 
 .BouttonCentre {
     left: 25%;
