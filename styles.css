@@ -1,32 +1,65 @@
-.navigation{
+
+
+nav {
+    position: fixed;
     list-style-type: none;
     margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    top: 0;
-    left: 25%;
-    position: fixed;
-    width: 50%;
-    background-color: black;
-
-
+    padding: 0;
+    overflow: hidden;
+    background-color: #e4F9F5;
 }
 
-.nav-element {
-    display: inline;
+nav a {
+    
+    background-color: #e4F9F5;
+    color: #149a9f;
+    text-decoration: none;
     padding: 14px 16px;
 }
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-
 
 
 div{
     margin-top: 30px;
+}
+
+.BouttonCentre {
+    left: 25%;
+}
+
+button{
+    background-color:  #149a9f;
+    
+    margin: 100px 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    left: 25%;
+    
+}
+
+
+
+
+
+footer {
+    display: block;
+    padding: 50px;
+    background-color: #66BFBF;
+    text-align: center;    
+}
+
+footer a{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #149a9f;
+    font-size: x-large;
+    
+}
+
+footer p{
+    font-size: small;
+    color: white;   
 }
 
 
