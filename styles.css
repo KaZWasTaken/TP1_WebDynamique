@@ -22,11 +22,44 @@ a{
     text-decoration: none;
 }
 
+.BouttonCentre {
+    left: 25%;
+}
+
+button{
+    background-color:  #149a9f;
+    
+    margin: 100px 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    left: 25%;
+    
+}
 
 
 
-div{
-    margin-top: 30px;
+
+
+footer {
+    display: block;
+    padding: 50px;
+    background-color: #66BFBF;
+    text-align: center;    
+}
+
+footer a{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #149a9f;
+    font-size: x-large;
+    
+}
+
+footer p{
+    font-size: small;
+    color: white;   
 }
 
 
