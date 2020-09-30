@@ -5,15 +5,16 @@
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
     top: 0;
     left: 25%;
     position: fixed;
     width: 50%;
-    background-color: black;
+    background-color: #66bfbf;
 }
 
 .nav-element {
-    display: inline;
+    display: inline-block;
     padding: 14px 16px;
 }
 
