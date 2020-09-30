@@ -1,3 +1,5 @@
+/*Nav*/
+
 .navigation{
     list-style-type: none;
     margin: 0;
@@ -8,8 +10,6 @@
     position: fixed;
     width: 50%;
     background-color: black;
-
-
 }
 
 .nav-element {
@@ -22,25 +22,69 @@ a{
     text-decoration: none;
 }
 
+/*Prsentation*/
+
+.Prsentation{
+    margin-top: 200px;
+    color: #66BFBF;
+    text-align: center;
+    font-size: large;
+}
+
+.Prsentation h1{
+    font-family: cursive;
+}
+
+
+/*Competences*/
+
+.Competences{
+    margin-top: 100px;
+    color: #66BFBF;
+    text-align: center;
+
+}
+
+/*Contact*/
+
+.Contact{
+    color: #66BFBF;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*Button*/
+
 .BouttonCentre {
-    left: 25%;
+    text-align: center;
 }
 
 button{
     background-color:  #149a9f;
-    
+    padding: 0px 25px;
     margin: 100px 0px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     border: none;
     left: 25%;
-    
+    color: white;
+    border-radius: 15px; 
 }
 
+button:hover {
+    transition-duration: 0.4s;
+    color: black;
+}
 
-
-
+/*Footer*/
 
 footer {
     display: block;
@@ -53,13 +97,20 @@ footer a{
     padding: 14px 16px;
     text-decoration: none;
     color: #149a9f;
-    font-size: x-large;
-    
+    font-size: x-large;  
+}
+
+footer a:hover{
+    transition-duration: 0.4s;
+    color: black;
 }
 
 footer p{
+    padding-top: 40px;
     font-size: small;
-    color: white;   
+    color: white; 
 }
+
+
 
 
