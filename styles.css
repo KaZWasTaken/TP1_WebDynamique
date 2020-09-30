@@ -5,33 +5,34 @@
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
     top: 0;
     left: 25%;
     position: fixed;
     width: 50%;
-    background-color: black;
+    background-color: #e4f9f5;
 }
 
 .nav-element {
-    display: inline;
+    display: inline-block;
     padding: 14px 16px;
 }
 
 a{
-    color: white;
+    color: #66BFBF;
     text-decoration: none;
 }
 
 /*Prsentation*/
 
-.Prsentation{
+.Presentation{
     margin-top: 200px;
     color: #66BFBF;
     text-align: center;
     font-size: large;
 }
 
-.Prsentation h1{
+.Presentation h1{
     font-family: cursive;
 }
 
