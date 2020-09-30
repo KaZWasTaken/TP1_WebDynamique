@@ -10,7 +10,7 @@
     left: 25%;
     position: fixed;
     width: 50%;
-    background-color: #66bfbf;
+    background-color: #e4f9f5;
 }
 
 .nav-element {
@@ -19,20 +19,20 @@
 }
 
 a{
-    color: white;
+    color: #66BFBF;
     text-decoration: none;
 }
 
 /*Prsentation*/
 
-.Prsentation{
+.Presentation{
     margin-top: 200px;
     color: #66BFBF;
     text-align: center;
     font-size: large;
 }
 
-.Prsentation h1{
+.Presentation h1{
     font-family: cursive;
 }
 
