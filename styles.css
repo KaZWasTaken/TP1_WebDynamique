@@ -19,22 +19,31 @@ body{
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: center;
+    text-align: left;
+    text-indent: 27%;
     top: 0;
-    left: 25%;
+    left: 24%;
     position: fixed;
     width: 50%;
+    border-radius: 25px;
     background-color: #e4f9f5;
 }
 
 .nav-element {
     display: inline-block;
     padding: 14px 16px;
+
 }
 
 a{
     color: #66BFBF;
     text-decoration: none;
+}
+
+a:hover{
+    color: #315e5e;
+    padding: 15px;
+    background-color: grey;
 }
 
 /*Prsentation*/
@@ -100,7 +109,10 @@ a{
 
 
 
-
+#gif{
+    border: 3px solid white;
+    border-radius: 25px;
+}
 
 
 
