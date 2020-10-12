@@ -2,10 +2,43 @@
 
 #out-box{
 
-    background-color: grey;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border: 20px solid grey;
 }
 
 #in-box{
-
+    background-color: white;
     margin: 2%;
+}
+
+.sidenav {
+    height: 20%;
+    width: 15%;
+    position: fixed;
+    top: 50%;
+    right: 20%;
+    background-color: #66BFBF;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-right: 10px;
+    opacity: 90%;
+    border-radius: 50px;
+    border: 5px solid #394a64;
+
+}
+
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-element{
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
 }
