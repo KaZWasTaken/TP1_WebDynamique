@@ -1,3 +1,17 @@
+body{
+    background-image: url(low_poly_river_landscape_design-wallpaper-3840x2160.jpg);
+    image-resolution: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
+
+
+
 /*Nav*/
 
 .navigation{
@@ -26,29 +40,60 @@ a{
 /*Prsentation*/
 
 .Presentation{
-    margin-top: 200px;
+    margin-top: 20%;
+    
     color: #66BFBF;
     text-align: center;
-    font-size: large;
+    font-size: x-large;
 }
 
 .Presentation h1{
     font-family: cursive;
 }
 
+.ImagePresentation{
+    text-align: center;
+    margin-top: 10%;
+}
+
 
 /*Competences*/
 
-.Competences{
-    margin-top: 100px;
-    color: #66BFBF;
+.Competences-Titre{
+    margin-top: 8%;
+    font-size: x-large;
+    color: #ffffff;
     text-align: center;
-
+    
 }
+
+
+.Competences{
+    margin: 0% 30%;
+    padding: 5%;
+    font-size: large;
+    color: #ffffff;
+    text-align: left;
+    
+}
+
+.Competences p{
+    
+    padding-top: 10%;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.Competences img{
+ margin: 0% 5%;
+}
+
+
 
 /*Contact*/
 
 .Contact{
+    margin: 100px 200px;
     color: #66BFBF;
     text-align: center;
 }
