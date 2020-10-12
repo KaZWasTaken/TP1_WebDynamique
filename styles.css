@@ -94,8 +94,10 @@ a{
 
 .Contact{
     margin: 100px 200px;
-    color: #66BFBF;
+    padding: 0px 25%;
+    color: black;
     text-align: center;
+    font-size: x-large;
 }
 
 
@@ -114,11 +116,12 @@ a{
 
 button{
     background-color:  #149a9f;
-    padding: 0px 25px;
+    padding: 10px 30px;
     margin: 100px 0px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    font-size: large;
     border: none;
     left: 25%;
     color: white;
@@ -140,6 +143,7 @@ footer {
 }
 
 footer a{
+    
     padding: 14px 16px;
     text-decoration: none;
     color: #149a9f;
