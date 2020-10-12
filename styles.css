@@ -94,7 +94,8 @@ a{
 
 .Contact{
     margin: 100px 200px;
-    color: #66BFBF;
+    padding: 0px 25%;
+    color: black;
     text-align: center;
     font-size: x-large;
 }
@@ -142,6 +143,7 @@ footer {
 }
 
 footer a{
+    
     padding: 14px 16px;
     text-decoration: none;
     color: #149a9f;
