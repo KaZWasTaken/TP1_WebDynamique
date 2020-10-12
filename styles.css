@@ -109,7 +109,11 @@ a:hover{
     font-size: x-large;
 }
 
-
+.contact-info{
+    padding: 0;
+    display: block;
+    text-align: justify;
+}
 
 #gif{
     border: 3px solid white;
