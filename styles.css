@@ -1,3 +1,187 @@
+body{
+    background-image: url(images/low_poly_river_landscape_design-wallpaper-3840x2160.jpg);
+    image-resolution: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
+
+
+
+/*Nav*/
+
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    text-indent: 27%;
+    top: 0;
+    left: 24%;
+    position: fixed;
+    width: 50%;
+    border-radius: 25px;
+    background-color: #e4f9f5;
+    opacity: 90%;
+}
+
+.nav-element {
+    display: inline-block;
+    padding: 14px 16px;
+
+}
+
+a{
+    color: #66BFBF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #315e5e;
+    padding: 15px;
+    background-color: grey;
+}
+
+/*Prsentation*/
+
+.Presentation{
+    margin-top: 20%;
+    
+    color: #66BFBF;
+    text-align: center;
+    font-size: x-large;
+}
+
+.Presentation h1{
+    font-family: cursive;
+}
+
+.ImagePresentation{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/*Competences*/
+
+.Competences-Titre{
+    margin-top: 8%;
+    font-size: x-large;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+
+.Competences{
+    margin: 0% 30%;
+    padding: 5%;
+    font-size: large;
+    color: #ffffff;
+    text-align: left;
+    
+}
+
+.Competences p{
+    
+    padding-top: 10%;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.Competences img{
+ margin: 0% 5%;
+}
+
+
+
+/*Contact*/
+
+.Contact{
+    margin: 100px 200px;
+    padding: 0px 25%;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+
+.contact-info{
+    padding: 0;
+    display: block;
+    text-align: justify;
+}
+
+#gif{
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*Button*/
+
+.BouttonCentre {
+    text-align: center;
+}
+
+button{
+    background-color:  #149a9f;
+    padding: 10px 30px;
+    margin: 100px 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    border: none;
+    left: 25%;
+    color: white;
+    border-radius: 15px; 
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    color: black;
+}
+
+/*Footer*/
+
+footer {
+    display: block;
+    padding: 50px;
+    background-color: #66BFBF;
+    text-align: center;    
+}
+
+footer a{
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #149a9f;
+    font-size: x-large;  
+}
+
+footer a:hover{
+    transition-duration: 0.4s;
+    color: black;
+}
+
+footer p{
+    padding-top: 40px;
+    font-size: small;
+    color: white; 
+}
+
+
+
 
 
 nav {
