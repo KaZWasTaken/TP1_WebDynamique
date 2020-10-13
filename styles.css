@@ -27,6 +27,7 @@ body{
     width: 50%;
     border-radius: 25px;
     background-color: #e4f9f5;
+    opacity: 90%;
 }
 
 .nav-element {
@@ -121,7 +122,9 @@ a:hover{
 }
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 /*Button*/
